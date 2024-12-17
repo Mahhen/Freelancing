@@ -1,0 +1,17 @@
+.nav-bar{
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    max-width: 80rem;
+    margin-top: 1rem;
+    background: linear-gradient(135deg, #fff, #390); /* Dark background gradient */
+    border-radius: 1rem; /* Rounded corners for a smoother look */
+    top: 0;
+}

@@ -28,7 +28,7 @@ const EnhancedSignupForm = () => {
             <input type="password" id="password" required className="form-input" placeholder="Create a password" />
           </div>
 
-          <button type="submit" className="signup-button">Sign Up</button>
+          <button type="submit" className="signup-button"><Link>Sign Up</Link></button>
 
           <div className="divider">OR</div>
 

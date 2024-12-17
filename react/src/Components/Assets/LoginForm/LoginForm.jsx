@@ -21,7 +21,7 @@ export const LoginForm = () => {
                 <a href="#" className='forgotpass'>Forgot password?</a>
             </div>
 
-            <button type='submit'>Login</button>
+            <button type='submit'> <Link to="/home">Login</Link></button>
             <div className="register-link">
                 <p>Don&apos;t have an account? <Link to="/signup">Register</Link></p>
             </div>
