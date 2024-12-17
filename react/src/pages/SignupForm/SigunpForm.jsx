@@ -1,8 +1,8 @@
 // EnhancedSignupForm.js
 import React from 'react';
 import './SignupForm.css';
-import googleIcon from '../../../assets/google-icon.svg';
-import linkedinIcon from '../../../assets/linkedin-icon.svg';
+import googleIcon from '../../assets/google-icon.svg';
+import linkedinIcon from '../../assets/linkedin-icon.svg';
 import { Link } from 'react-router-dom';
 
 const EnhancedSignupForm = () => {
