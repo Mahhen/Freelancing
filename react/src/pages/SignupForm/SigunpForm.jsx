@@ -1,4 +1,5 @@
 // EnhancedSignupForm.js
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import './SignupForm.css';
 import googleIcon from '../../assets/google-icon.svg';
@@ -28,7 +29,7 @@ const EnhancedSignupForm = () => {
             <input type="password" id="password" required className="form-input" placeholder="Create a password" />
           </div>
 
-          <button type="submit" className="signup-button">Sign Up</button>
+          <button type="submit" className="signup-button"> <Link className='route-home' to="/home">Sign Up</Link></button>
 
           <div className="divider">OR</div>
 

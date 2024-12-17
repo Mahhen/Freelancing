@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import './LoginForm.css';
 import { FaUser, FaLock } from "react-icons/fa";
@@ -5,6 +6,9 @@ import { Link } from 'react-router-dom';
 
 export const LoginForm = () => {
   return (
+    <main>
+    
+    
     <div className='wrapper'>
         <form action="">
             <h1>Login</h1>
@@ -21,11 +25,12 @@ export const LoginForm = () => {
                 <a href="#" className='forgotpass'>Forgot password?</a>
             </div>
 
-            <button type='submit'>Login</button>
+            <button type='submit'> <Link to="/home">Login</Link></button>
             <div className="register-link">
                 <p>Don&apos;t have an account? <Link to="/signup">Register</Link></p>
             </div>
         </form>
     </div>
+    </main>
   );
 };
