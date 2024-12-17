@@ -6,15 +6,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   background: linear-gradient(135deg, #8e9eab, #eef2f3);
+ 
 }
 
 .signup-container {
@@ -27,6 +27,10 @@ body {
   border-radius: 20px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 40px;
+  background: url('./background.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
 }
 
 .signup-card {
@@ -169,4 +173,9 @@ body {
 .login-link a:hover {
   color: #964cd6;
   text-decoration: underline;
+}
+
+
+.route-home{
+  color: white;
 }
