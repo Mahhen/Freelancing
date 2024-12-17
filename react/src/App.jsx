@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { LoginForm } from './Components/Assets/LoginForm/LoginForm';
-import SignupForm from './Components/Assets/SignupForm/SigunpForm'  // Corrected import for default export
+import { LoginForm } from './pages/LoginForm/LoginForm';
+import SignupForm from './pages/SignupForm/SigunpForm'  // Corrected import for default export
 
 function App() {
   return (
